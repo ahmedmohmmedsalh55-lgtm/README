@@ -10,7 +10,7 @@ const app = express();
 // رابط موقعك على Glitch (سيتم تعيينه تلقائيًا)
 const glitchLink = process.env.PROJECT_DOMAIN 
   ? `https://${process.env.PROJECT_DOMAIN}.glitch.me` 
-  : 'https://your-project-name.glitch.me';
+  : 'https://readme-l9he.onrender.com';
 
 // معالجة أمر /start
 bot.onText(/\/start/, (msg) => {
